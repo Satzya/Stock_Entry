@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="566.0" prefWidth="1123.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stockentry.RegisterProductsController">
+   <children>
+      <Label layoutX="606.0" layoutY="87.0" prefHeight="47.0" prefWidth="159.0" text="Register Products">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="492.0" layoutY="161.0" prefHeight="47.0" prefWidth="151.0" text="Enter Product ID:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="492.0" layoutY="219.0" prefHeight="47.0" prefWidth="166.0" text="Enter Product Name:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="492.0" layoutY="277.0" prefHeight="47.0" prefWidth="151.0" text="Enter Price:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="492.0" layoutY="331.0" prefHeight="47.0" prefWidth="151.0" text="Total Quantity:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="id" layoutX="730.0" layoutY="172.0" />
+      <TextField fx:id="name" layoutX="730.0" layoutY="230.0" />
+      <TextField fx:id="price" layoutX="730.0" layoutY="288.0" />
+      <TextField fx:id="quantity" layoutX="730.0" layoutY="342.0" />
+      <Button layoutX="562.0" layoutY="406.0" mnemonicParsing="false" onAction="#onClick" text="Register">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="759.0" layoutY="406.0" mnemonicParsing="false" onAction="#cancelReg" text="Cancel">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
